@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~leaflet/dist/leaflet.css";
+
+/* set the height of the map container */
+#map-container {
+  height: 500px;
+}
+
+/* set the width of the map tiles */
+.leaflet-tile-container {
+  width: auto !important;
+  height: auto !important;
+  max-width: none !important;
+}
+
+/* set the width of the map container */
+.leaflet-container {
+  width: 100% !important;
+}

@@ -1,0 +1,29 @@
+<button (click)="showForm()">Create City</button>
+
+
+
+  
+ 
+  
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Country</th>
+        <th>Population</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let city of City">
+        <td>{{city.name}}</td>
+        <td>{{city.country}}</td>
+        <td>{{city.population}}</td>
+        <td>
+          <button (click)="editCity()">Edit</button>
+          <button (click)="deleteCity()">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  
