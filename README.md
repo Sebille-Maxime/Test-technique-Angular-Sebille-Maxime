@@ -1,27 +1,14 @@
-# Map
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
 
-## Development server
+Description du projet :
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+La partie 1 est fonctionnelle. Une carte dynamique est affichée avec 5 marqueurs pour 5 capitales et un marqueur pour ma position. Le système de popup en cliquant sur un marqueur est fonctionnel, il affiche le nom de la ville et sa population.
 
-## Code scaffolding
+La partie 2 est en partie fonctionnelle. Une liste des capitales est présente avec différents champs. Un système de création de ville est disponible, mais il n'est pas interactif. Le système d'édition de ville n'est pas fonctionnel. Le système de suppression de ville est présent, mais il supprime uniquement la dernière ville de la liste, il n'est donc pas pleinement fonctionnel.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Quant à l'interaction entre la liste et la carte, elle n'est pas fonctionnelle.
 
-## Build
+Retour sur l'expérience : J'ai trouvé cette épreuve très enrichissante. Je ne connaissais absolument pas Angular avant cela et cela m'a permis d'en apprendre beaucoup je trouve ce framework très interessant malgré sa difficulté au premier abord. Si une correction de ce test est disponible, j'aimerais bien la voir pour corriger mes erreurs et m'améliorer.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Cordialement, Sebille Maxime
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
